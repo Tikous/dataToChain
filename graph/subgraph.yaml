@@ -8,9 +8,9 @@ dataSources:
     name: DataStorage
     network: sepolia
     source:
-      address: "0x32B4b103685c3D38e477bD8F138594643E9C73AB"
+      address: "0x10B83456B6FD680a7030bD5A777fd702b6F5f27c"
       abi: DataStorage
-      startBlock: 8515424
+      startBlock: 8516527
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.9

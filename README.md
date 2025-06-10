@@ -51,3 +51,8 @@ npx hardhat verify --network sepolia DEPLOYED_CONTRACT_ADDRESS
 npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
+
+## graph
+1. graph init --skip-git
+2. npx graph build
+3. 
