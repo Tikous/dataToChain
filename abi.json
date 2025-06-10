@@ -1,0 +1,25 @@
+[
+  {
+      "type": "event",
+      "name": "DataStored",
+      "inputs": [
+          {"name": "sender", "type": "address", "indexed": true},
+          {"name": "data", "type": "string", "indexed": false},
+          {"name": "timestamp", "type": "uint256", "indexed": false}
+      ]
+  },
+  {
+      "type": "function",
+      "name": "storeDataViaEvent",
+      "inputs": [{"name": "data", "type": "string"}],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+  },
+  {
+      "type": "function",
+      "name": "sendHexData",
+      "inputs": [{"name": "data", "type": "bytes"}],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+  }
+]
